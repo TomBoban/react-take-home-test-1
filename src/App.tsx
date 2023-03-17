@@ -1,10 +1,12 @@
-import React from 'react';
+import { Container } from "react-bootstrap";
+import HomePage from "./components/HomePage";
 
 function App() {
+  
   return (
-    <div className="App container">
-      <h1 className='text-center'>Brew Ninja Test App</h1>
-    </div>
+    <Container className="app_body" fluid>
+      <HomePage />
+    </Container>
   );
 }
 

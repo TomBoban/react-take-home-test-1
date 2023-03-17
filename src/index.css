@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.app_body {
+  height: 100vh;
+  background: linear-gradient(#fa1a1b, #101440);
+}
+
+.form_body {
+  background-color: whitesmoke;
+  padding: 1.5rem;
+}
+
+.form_input {
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+.form_btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn_action {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home {
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: ui-sans-serif;
+  padding-bottom: 3rem;
+}
+
+.addContact {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: 700;
 }
